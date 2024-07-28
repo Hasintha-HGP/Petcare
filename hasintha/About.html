@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Page</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <style>
+    .about-main{
+      margin-top: 0;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 600px;
+    }
+    .img-container{
+      margin-top: 0;
+      width: 45%;
+      height: 100%;
+      background-image: url(image01.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-left: 50px;
+    }
+    .text-container{
+      width: 55%;
+      padding-right: 20px;
+      text-align: center;
+      justify-content: center;
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+    .text-container h3{
+      position: relative;
+      top: -20px;
+    }
+    .text-container hr{
+      position: relative;
+      top: -20px;
+      width: 15%;
+      border: solid 1px;
+    }
+    .text-container p{
+      padding-left: 140px;
+      padding-right: 140px;
+      line-height: 200%;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .text-container a{
+      text-decoration: none;
+      color: black;
+      border: solid black 2px;
+    }
+    .text-container a:hover{
+      border: solid green 2px;
+      cursor: help;
+    }
+    .social-media table{
+      width: 100%;
+    }
+    .social-media a{
+      border: none !important;
+    }
+    .social-media a:hover{
+      cursor: default !important;
+    }
+    .social-media img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+    .social-media td{
+      padding-left: 80px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header1">
+      <img class="logo" id="logo_left" src="image05.jpg" alt="Logo">
+      <h1 id="pet_care">PET CARE</h1>
+      <img class="logo" id="logo_right" src="image05.jpg" alt="Logo">
+    </div>
+    <div class="header2">
+      <ul>
+        <li><a href="Home.html" target="_top">HOME</a></li>
+        <li><a href="About.html" target="_top">ABOUT</a></li>
+        <li><a href="Reviews.html" target="_top">REVIEWS</a></li>
+        <li><a href="Contact.html" target="_top">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="about-main">
+    <div class="img-container"></div>
+    <div class="text-container">
+      <h3>ABOUT US</h3>
+      <hr>
+      <p>Welcome to Pet Care Shop on our website to avail exciting offers 
+        exclusively for your pet friend. Earn points and get Coupans for 
+        additional discounts. We deal in Dog Toys, Tasty Snacks, Collars, 
+        Leashes, Harness with latest designs that you and your pet will 
+        fall in love with. Want to stay in touch? No problem the page 
+        also features useful links to social media pages, as well as our 
+        online shop.
+      </p>
+      <p ><a href="Home.html">WORK</a></p>
+      <p><a href="Reviews.html">REVIEW</a></p>
+      <p><a href="Contact.html">CONTACT</a></p>
+      <div class="social-media">
+        <table>
+          <tr>
+            <td><a href="www.facebook.com"><img src="facebook.jpg" title="FaceBook"></a></td>
+            <td><a href="www.instagram.com"><img src="instagram.jpg" title="Instagram"></a></td>
+            <td><a href="www.youtube.com"><img src="youtube.jpg" title="YouTube"></a></td>
+            <td><a href="www.whatsapp.com"><img src="whatsapp.jpg" title="WhatsApp"></a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <table>
+      <tr>
+        <td class="section1">
+          <img src="image06.jpg" alt="pet care"><br>
+          <p><b>P</b>ets are humanizing. They remind us we have an obligation 
+            and responsibility to preserve and nurture and care for all 
+            life...
+          </p>
+        </td>
+        <td class="section2">
+          <h4><b>Have A Question</b></h4>
+          <ul>
+            <li><a href="Home.html">Services</a></li>
+            <li><a href="Reviews.html">Dog Hostel</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </td>
+        <td class="section3">
+          <h4><b>Information</b></h4>
+          <table>
+            <tr>
+              <td><img src="location.jpg" alt=""></td>
+              <td class="info">Pet Care (PVT)Ltd, 123, 1st Floor <br>
+                Dalugama, Kelaniya.</td>
+            </tr>
+            <tr>
+              <td><img src="telephone.jpg" alt=""></td>
+              <td class="info">Telephone: 0112 999999 <br>
+                Fax: 0094 112 621 382</td>
+            </tr>
+            <tr>
+              <td><img src="email.jpg" alt=""></td>
+              <td class="info">info@petcare.com</td>
+            </tr>
+          </table>
+        </td>
+        <td class="section4">
+          <h4><b>Visit Us</b></h4>
+          <iframe src="https://maps.app.goo.gl/Va4eboJu9neQi1CB8" frameborder="0"></iframe>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
